@@ -1,0 +1,49 @@
+.catalog:
+  name: "Gogs"
+  version: "v0.8.43"
+  description: "A painless self-hosted Git service"
+  uuid: gogs-0
+  minimum_rancher_version: v0.51.0
+  questions:
+    - variable: http_port
+      description: "http port to access gogs webui"
+      label: "Http Port"
+      required: true
+      default: "30080" 
+      type: "int"
+
+    - variable: ssh_port
+      description: "ssh port to access gogs cli"
+      label: "SSH Port"
+      required: true
+      default: "30022"
+      type: "int"
+
+    - variable: mysql_root_password
+      description: "mysql root password"
+      label: "Mysql Root Password"
+      required: true
+      default: "p4ssw0rd"
+      type: "string"
+
+    - variable: mysql_user
+      description: "mysql user"
+      label: "Mysql User"
+      required: true
+      default: "gogs"
+
+    - variable: mysql_password
+      description: "mysql user password"
+      label: "Mysql User Password"
+      required: true
+      default: "g0gs"
+      type: "string"
+        
+     - variable: mysql_database
+      description: "mysql database name"
+      label: "Mysql Database name"
+      required: true
+      default: "gogs"
+      type: "string"
+
+      gogs:
