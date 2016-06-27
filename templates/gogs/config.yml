@@ -1,6 +1,6 @@
 name: DCC - UFRJ - Gogs
 description: |
   Servidor Git - DCC - UFRJ
-  version: v0.9.13
-  maintainer: LCI - Servidores
-  projectURL: https://github.com/gogits/gogs
+version: v0.9.13
+maintainer: LCI - Servidores
+projectURL: https://github.com/gogits/gogs
