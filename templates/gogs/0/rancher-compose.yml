@@ -38,7 +38,7 @@
       required: true
       default: "g0gs"
       type: "string"
-        
+
      - variable: mysql_database
       description: "mysql database name"
       label: "Mysql Database name"
