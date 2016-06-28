@@ -46,4 +46,11 @@
       default: "gogs"
       type: "string"
 
+    - variable: gogs_volume
+      description: "directory to store gogs data"
+      label: "Gogs Volume"
+      required: true
+      default: "/storage"
+      type: "string"
+
       gogs:
