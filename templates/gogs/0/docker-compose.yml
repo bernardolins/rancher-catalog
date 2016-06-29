@@ -3,7 +3,6 @@ gogs:
   ports:
     - ${http_port}:3000
     - ${ssh_port}:22
-  links/var/lib/mysql
     - mysql:db
   volumes:
     - ${gogs_volume}:/data
