@@ -53,4 +53,11 @@
       default: "/storage"
       type: "string"
 
+    - variable: mysql_volume
+      description: "directory to store gogs database data"
+      label: "Gogs MySQL Volume"
+      required: true
+      default: "/storage/mysql"
+      type: "string"
+      
       gogs:
